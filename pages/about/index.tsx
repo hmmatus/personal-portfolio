@@ -1,7 +1,4 @@
+import AboutLayout from '@/src/components/layouts/about';
 export default function About() {
-  return (
-    <div className="container">
-      <h1>This is the About page</h1>
-    </div>
-  );
+  return <AboutLayout />;
 }

@@ -1,0 +1,14 @@
+@use "colors";
+.title {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.subtitle {
+  color: colors.$red;
+  font-size: 2.5rem;
+}
+
+.paragraph {
+  font-size: 2rem;
+}
