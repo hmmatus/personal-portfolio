@@ -3,3 +3,9 @@ $background-secondary-color:#321E1E;
 $card-background-color: #4E3636;
 $text-color: white;
 $white: white;
+
+:export {
+  background-primary-color: $background-primary-color;
+  background-secondary-color: $background-secondary-color;
+  
+}

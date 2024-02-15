@@ -1,58 +1,17 @@
-@use '/styles/colors';
+@use 'src/styles/colors';
 .navbar {
   display: flex;
-  flex-direction: column;
-  background-color: colors.$background-secondary-color;
+  background-color: colors.$background-primary-color;
   color: colors.$white;
-  align-items: center;
+  min-height: 80px;
   justify-content: space-between;
-  padding: 0 1rem;
-}
-@media (min-width: 768px) {
-  .navbar {
-   align-items: flex-end;
-  }
+  align-items: center;
+  padding: 1rem;
 }
 
-.logo {
-  font-size: 3rem;
-}
-
-.menu-icon {
-  font-size: 4rem;
-}
-
-.menu {
-  display: none;
-}
-.show-menu {
-  display: flex;
-  flex-direction: column;
-}
-
-@media (min-width: 768px) {
-  .menu {
-    display: flex;
-    align-items: space;
-    justify-content: flex-end;
-    flex-direction: row;
-  }
-  .menu-icon {
-    display: none;
-  }
-}
-.menu li {
-  margin: 0 2rem;
-}
-
-.menu li a {
-  font-size: 3rem;
-  color: colors.$white;
-}
-
-.menu li a:hover {
-  background-color: colors.$white;
-  color: colors.$background-primary-color;
+.mobile-div {
+  background-color: colors.$background-primary-color;
+  top: 80px;
 }
 
 
